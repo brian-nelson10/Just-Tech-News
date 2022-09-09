@@ -63,7 +63,6 @@ router.post('/', (req, res) => {
   });
 
 router.post('/login', (req, res) => {
-
 // Query operation
 // expects {email: 'lernantino@gmail.com', password: 'password1234'}
 User.findOne({
